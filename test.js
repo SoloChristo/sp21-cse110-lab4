@@ -1,13 +1,19 @@
-function sumValues(num1, num2, add){
-    if (add) {
-        const result = 0;
-        result = num1 + num2;
+// question 2 
+function discountPrices(prices, discount){
+    const discounted = [];
+    const length = prices.length;
 
-        console.log('values added: ', result);
+    for (let i = 0; i < length; i++){
+        const discountedPrice = prices[i] * (1 - discount);
+        discounted.push(discountedPrice);
+    }
 
-    } else return;
-
-    console.log('final result: ', result);
+    // console.log(i);
+    // console.log(discountedPrice);
+    // console.log(finalPrice);
+    console.log(length);
+    return discounted;
 }
 
-sumValues(10, 10, true);
+let ret = discountPrices([100, 200, 300 ], 0.5);
+console.log(ret);
