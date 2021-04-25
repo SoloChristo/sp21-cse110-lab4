@@ -63,3 +63,11 @@ part1x-questionY-z.js dd the -y only if it’s a subquestion
 15. The difference between == and === is that === will
     check to see if the types and the values are equal without a type cast.
     Where == will perform a type cast and then check for inequality.
+16. Done
+
+### Functions
+
+17. Its like a transform function, that applies doSomething to each of element.
+    even times each by 2 so we get [2, 4, 6].
+
+18.
