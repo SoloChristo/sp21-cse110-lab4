@@ -1,19 +1,29 @@
-// question 2 
-function discountPrices(prices, discount){
-    const discounted = [];
-    const length = prices.length;
+// function modifyArray(array, callback){
+//     const newArr = []; 
+//     for (let i = 0; i < array.length; i++){
+//         newArr.push(callback(array[i]));
+//     }
+//     return newArr;
+// }
 
-    for (let i = 0; i < length; i++){
-        const discountedPrice = prices[i] * (1 - discount);
-        discounted.push(discountedPrice);
-    }
+// function doSomething(num){
+//     return num * 2;
+// }
 
-    // console.log(i);
-    // console.log(discountedPrice);
-    // console.log(finalPrice);
-    console.log(length);
-    return discounted;
+// let arry = modifyArray([1,2,3], doSomething);
+// console.log(arry);
+
+let d = new Date();
+
+function print_time(){
+    let time = d.toLocaleTimeString();
+    console.log(time);
 }
+// setInterval(print_time(), 1000);
 
-let ret = discountPrices([100, 200, 300 ], 0.5);
-console.log(ret);
+for (let iter = true; true; ){
+    let myGreeting = setTimeout(function() {
+        print_time();
+    }, 1000);
+    myGreeting;
+}
