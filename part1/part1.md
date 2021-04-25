@@ -47,4 +47,19 @@ part1x-questionY-z.js dd the -y only if it’s a subquestion
     C. student.greeting()
     D. student["favorite Teacher"].name
     E. student.courseLoad[0]
-13.
+13. A. '32', this is a string ints get converted to string.
+    B. '1' now the string gets converted to an int and subtraction is performed.
+    C. 3, since null is nothing adding nothing to 3 is 3.
+    D. '3null' this is just string concatenation.
+    E. 4 since 1 plus 3 is 4, and true === 1.
+    F. 0 nothing plus 0 is 0.
+    G. '3undefined' string concatenation occurs again.
+    H. NaN there is no valid integer conversion from undefined.
+14. A. '2' > 1, true since '2' is cast too in int.
+    B. false, same integer conversion occurs.
+    C. true, since the conversion occurs then the equality operator is called.
+    D. false, since true is cast to the int value 1 and 1 != 2.
+    F. true === Boolean(2), true. Since, Boolean(2) equals true and true === true.
+15. The difference between == and === is that === will
+    check to see if the types and the values are equal without a type cast.
+    Where == will perform a type cast and then check for inequality.
