@@ -70,4 +70,6 @@ part1x-questionY-z.js dd the -y only if it’s a subquestion
 17. Its like a transform function, that applies doSomething to each of element.
     even times each by 2 so we get [2, 4, 6].
 
-18.
+18. Done.
+
+19. 1 4 3, printed one second after the other then, after three seconds 2 is printed.
